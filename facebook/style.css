@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    background-image: linear-gradient(to bottom, white, rgb(194, 204, 253));
+}
+.logo{
+    border: 1px solid blue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background: #3b5998;
+
+}
+
+
+
+.logo .img{
+    height: 50px;
+    width: 200px;
+}
+.logo .img img{
+    width: 100%;
+
+}
+.logo form{
+    display: flex;
+    color: white;
+    height: 100%;
+    margin-top: 15px;
+}
+.logo form .login label{
+    display: block;
+    
+}
+.logo form .login input{
+    padding: 2px;
+}
+.logo form .password{
+    padding: 0 20px;
+
+}
+.logo form .password input{
+    padding: 2px;
+    display: block;
+}
+.logo form .password a{
+    text-decoration: none;
+    color: #97b8ff;
+}
+.logo form .button button{
+    background: #365fb8;
+    color: white;
+    height: 25px;
+    width: 50px;
+    border: 1px #294277 solid;
+    border-radius: 1px;
+    margin-top: 12px;
+}
+.logo form .password a:hover{
+    text-decoration: underline;
+}
+.logo form .button button:hover{
+    background: #254791;
+    
+}
+.conteudo-left{
+    height: 700PX;
+    width: 789px;
+    float: left;
+}
+.conteudo-left .text{
+    width: 530px;
+    float: right;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    color: #001d57;
+    margin-top: 40px;
+}
+.conteudo-left .img1 img{
+    float: right;
+    padding: 10px;
+}
+.conteudo-right{
+    height: 900PX;
+    width: 700px;
+    float: right;
+
+}
+.conteudo-right h1{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 5px;
+    color: #2c2c2c;
+}
+.conteudo-right h2{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    font-weight: 550;
+}
+.conteudo-right form .cadastro1{
+    padding: 5px;
+    margin-top: 10px;
+}
+.conteudo-right form .cadastro1 input{
+    height: 20px;
+    width: 200px;
+    padding: 5px;   
+    font-size: 18px;
+    border: #2c2c2c;
+}
+.conteudo-right form .cadastro2{
+    padding: 5px;
+    margin-top: 10px;
+}
+.conteudo-right form .cadastro2 input{
+    display: block;
+    height: 20px;
+    width: 417px;
+    padding: 5px; 
+    font-size: 18px;
+}
+.conteudo-right form .cadastro3{
+    padding: 5px;
+    margin-top: 10px;
+
+}
+.conteudo-right form .cadastro3 input{
+    display: block;
+    height: 20px;
+    width: 417px;
+    padding: 5px; 
+    font-size: 18px;
+}
+.conteudo-right form h3{
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: rgb(143, 143, 143);
+    padding: 10px;
+}
+.conteudo-right form .data{
+    padding: 5px;
+}
+.conteudo-right form .data select{
+    padding: 5px;
+}
+.conteudo-right form .genero{
+    padding: 5px;
+}
+.conteudo-right form .genero label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+    font-size: 18px;
+}
+.conteudo-right .termos{
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+}
+.conteudo-right .termos:hover{
+    text-decoration: underline;
+}
+.conteudo-right .bcad{
+    margin-top: 20px;
+    border: 1px green solid;
+    background-image: linear-gradient(to bottom, rgb(103, 179, 103), rgb(60, 139, 60));
+    border-radius: 3px;
+    width: 180px;
+    text-align: center;
+    padding: 5px  ;
+}
+.conteudo-right .bcad .buttoncad{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+    text-decoration: none;
+}
+.conteudo-right .text1{
+    color: rgb(110, 110, 110);
+}
+.conteudo-right .text2{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    margin-top: 30px;
+}
+.conteudo-right .text2 a{
+    text-decoration: none;
+    color:#395591;
+}
+.conteudo-right .text2 a:hover{
+    text-decoration: underline;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: white;
+}
+.footer .linguagem{
+    float: left;
+    width: 900px;
+}
+.footer .linguagem p{
+    word-spacing: 5px;
+    padding: 10px;    
+    float: right;
+}
+.footer .linguagem p .pt{
+    text-decoration: none;
+    color: rgb(146, 145, 145);
+}
+.footer .linguagem p a{
+    text-decoration: none;
+    color: #395591;
+}
+.footer .linguagem p a:hover{
+    text-decoration: underline;
+}
